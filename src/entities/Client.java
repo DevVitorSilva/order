@@ -4,14 +4,14 @@ import java.util.Date;
 
 public class Client {
     private String name;
-    private Integer age;
+    private String email;
     private Date birthDate;
 
     public Client(){}
 
-    public Client(String name, Integer age, Date birthDate){
+    public Client(String name, String email, Date birthDate){
         this.name = name;
-        this.age = age;
+        this.email = email;
         this.birthDate = birthDate;
     }
 
@@ -23,12 +23,12 @@ public class Client {
         this.name = name;
     }
 
-    public Integer getAge() {
-        return age;
+    public String getEmail() {
+        return email;
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public Date getBirthDate() {
